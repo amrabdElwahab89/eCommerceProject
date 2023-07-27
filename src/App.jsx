@@ -116,7 +116,7 @@ function App() {
         { path: "Register", element: <Register /> },
       ],
     },
-    { path: "*", element: <Notfound /> },
+    // { path: "*", element: <Notfound /> },
   ]);
 
   useEffect(function () {
